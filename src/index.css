@@ -136,6 +136,10 @@ h1 {
   text-transform: uppercase;
 }
 
+.advice {
+  font-size: var(--fs-quote);
+}
+
 .line {
   background-image: url(./images/pattern-divider-mobile.svg);
   background-repeat: no-repeat;

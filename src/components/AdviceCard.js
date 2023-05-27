@@ -22,7 +22,7 @@ const AdviceCard = () => {
     return (
         <div className="card">
             <h1>advice #{adviceId}</h1>
-            <p>{advice}</p>
+            <p className='advice'>{advice}</p>
             <div className='line'>
 
             </div>
