@@ -23,9 +23,7 @@ const AdviceCard = () => {
         <div className="card">
             <h1>advice #{adviceId}</h1>
             <p className='advice'>{advice}</p>
-            <div className='line'>
-
-            </div>
+            <div className='line'></div>
             <button onClick={handleClick}><span className='sr-only'>random advice</span></button>
         </div>
     )
